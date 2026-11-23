@@ -1,0 +1,77 @@
+{
+  "project_id": "DL-09",
+  "project_title": "Fashion Item Classification",
+  "domain": "Part B: Deep Learning",
+  "timestamp": "2026-11-22T07:07:58.099479Z",
+  "metrics": {
+    "test_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "weighted_precision": 1.0,
+    "top_3_accuracy": 1.0,
+    "tops_confusion_rate": 0.0,
+    "tops_intra_accuracy": 1.0
+  },
+  "per_class_f1": {
+    "T-shirt/top": 1.0,
+    "Trouser": 1.0,
+    "Pullover": 1.0,
+    "Dress": 1.0,
+    "Coat": 1.0,
+    "Sandal": 1.0,
+    "Shirt": 1.0,
+    "Sneaker": 1.0,
+    "Bag": 1.0,
+    "Ankle boot": 1.0
+  },
+  "tops_analysis": {
+    "tops_classes": [
+      "T-shirt/top",
+      "Pullover",
+      "Coat",
+      "Shirt"
+    ],
+    "sub_confusion_matrix": [
+      [
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10
+      ]
+    ],
+    "tops_internal_errors": 0,
+    "all_tops_errors": 0,
+    "tops_error_share": 0.0,
+    "tops_intra_accuracy": 1.0,
+    "confused_pairs": []
+  },
+  "hyperparameters": {
+    "epochs": 4,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "weight_decay": 0.0001,
+    "dropout_rates": [
+      0.25,
+      0.5
+    ]
+  },
+  "status": "PASSED"
+}
