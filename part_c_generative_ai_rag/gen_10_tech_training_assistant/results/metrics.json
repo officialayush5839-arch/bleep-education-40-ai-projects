@@ -1,0 +1,191 @@
+{
+  "total_queries": 15,
+  "passed_queries": 15,
+  "overall_accuracy": 1.0,
+  "abstention_queries": 5,
+  "abstention_correct": 5,
+  "abstention_accuracy": 1.0,
+  "answerable_queries": 10,
+  "citation_precision": 1.0,
+  "mean_latency_ms": 1.43,
+  "query_results": [
+    {
+      "query": "What is stated in section 'Asymptotic Complexity' regarding Analysis of divide-and-conquer algorithms?",
+      "expected": "Analysis of divide-and-conquer algorithms utilizes the Master Theorem. Merge sort guarantees O(N log N) worst-case time complexity.",
+      "actual": "Computer science revision assistant for curriculum learning and concept assessment.\n\nAnalysis of divide-and-conquer algorithms utilizes the Master Theorem. [Doc: Computer Science Curriculum Syllabus (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Computer Science Curriculum Syllabus (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.46
+    },
+    {
+      "query": "What is stated in section 'Tree Data Structures' regarding Self-balancing AVL and Red-Black?",
+      "expected": "Self-balancing AVL and Red-Black trees ensure O(log N) lookup, insertion, and deletion by maintaining tree height invariants.",
+      "actual": "Computer science revision assistant for curriculum learning and concept assessment.\n\nSelf-balancing AVL and Red-Black trees ensure O(log N) lookup, insertion, and deletion by maintaining tree height invariants. [Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.3
+    },
+    {
+      "query": "What is stated in section 'Graph Traversal Algorithms' regarding Breadth-First Search (BFS) computes?",
+      "expected": "Breadth-First Search (BFS) computes shortest paths in unweighted graphs, while Dijkstra's algorithm solves weighted non-negative edge graphs.",
+      "actual": "Computer science revision assistant for curriculum learning and concept assessment.\n\nBreadth-First Search (BFS) computes shortest paths in unweighted graphs, while Dijkstra's algorithm solves weighted non-negative edge graphs. [Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.16
+    },
+    {
+      "query": "What is stated in section 'Bloom's Taxonomy Assessment' regarding Assessments are structured across?",
+      "expected": "Assessments are structured across cognitive levels: Remember, Understand, Apply, Analyze, Evaluate, and Create.",
+      "actual": "Computer science revision assistant for curriculum learning and concept assessment.\n\nAssessments are structured across cognitive levels: Remember, Understand, Apply, Analyze, Evaluate, and Create. [Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.17
+    },
+    {
+      "query": "What is stated in section 'Asymptotic Complexity' regarding Analysis of divide-and-conquer algorithms?",
+      "expected": "Analysis of divide-and-conquer algorithms utilizes the Master Theorem. Merge sort guarantees O(N log N) worst-case time complexity.",
+      "actual": "Computer science revision assistant for curriculum learning and concept assessment.\n\nAnalysis of divide-and-conquer algorithms utilizes the Master Theorem. [Doc: Computer Science Curriculum Syllabus (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Computer Science Curriculum Syllabus (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.72
+    },
+    {
+      "query": "What is stated in section 'Tree Data Structures' regarding Self-balancing AVL and Red-Black?",
+      "expected": "Self-balancing AVL and Red-Black trees ensure O(log N) lookup, insertion, and deletion by maintaining tree height invariants.",
+      "actual": "Computer science revision assistant for curriculum learning and concept assessment.\n\nSelf-balancing AVL and Red-Black trees ensure O(log N) lookup, insertion, and deletion by maintaining tree height invariants. [Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.33
+    },
+    {
+      "query": "What is stated in section 'Graph Traversal Algorithms' regarding Breadth-First Search (BFS) computes?",
+      "expected": "Breadth-First Search (BFS) computes shortest paths in unweighted graphs, while Dijkstra's algorithm solves weighted non-negative edge graphs.",
+      "actual": "Computer science revision assistant for curriculum learning and concept assessment.\n\nBreadth-First Search (BFS) computes shortest paths in unweighted graphs, while Dijkstra's algorithm solves weighted non-negative edge graphs. [Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.19
+    },
+    {
+      "query": "What is stated in section 'Bloom's Taxonomy Assessment' regarding Assessments are structured across?",
+      "expected": "Assessments are structured across cognitive levels: Remember, Understand, Apply, Analyze, Evaluate, and Create.",
+      "actual": "Computer science revision assistant for curriculum learning and concept assessment.\n\nAssessments are structured across cognitive levels: Remember, Understand, Apply, Analyze, Evaluate, and Create. [Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.13
+    },
+    {
+      "query": "What is stated in section 'Asymptotic Complexity' regarding Analysis of divide-and-conquer algorithms?",
+      "expected": "Analysis of divide-and-conquer algorithms utilizes the Master Theorem. Merge sort guarantees O(N log N) worst-case time complexity.",
+      "actual": "Computer science revision assistant for curriculum learning and concept assessment.\n\nAnalysis of divide-and-conquer algorithms utilizes the Master Theorem. [Doc: Computer Science Curriculum Syllabus (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Computer Science Curriculum Syllabus (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.12
+    },
+    {
+      "query": "What is stated in section 'Tree Data Structures' regarding Self-balancing AVL and Red-Black?",
+      "expected": "Self-balancing AVL and Red-Black trees ensure O(log N) lookup, insertion, and deletion by maintaining tree height invariants.",
+      "actual": "Computer science revision assistant for curriculum learning and concept assessment.\n\nSelf-balancing AVL and Red-Black trees ensure O(log N) lookup, insertion, and deletion by maintaining tree height invariants. [Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Computer Science Curriculum Syllabus (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Computer Science Curriculum Syllabus (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.21
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.29
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.44
+    },
+    {
+      "query": "What are the mandatory guidelines for alchemical transmutation of lead into pure gold?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.3
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.15
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.41
+    }
+  ],
+  "project_id": "GEN-10",
+  "project_title": "Technical Training Learning Assistant",
+  "domain": "EdTech"
+}
