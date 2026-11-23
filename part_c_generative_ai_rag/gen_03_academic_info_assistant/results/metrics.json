@@ -1,0 +1,191 @@
+{
+  "total_queries": 15,
+  "passed_queries": 15,
+  "overall_accuracy": 1.0,
+  "abstention_queries": 5,
+  "abstention_correct": 5,
+  "abstention_accuracy": 1.0,
+  "answerable_queries": 10,
+  "citation_precision": 1.0,
+  "mean_latency_ms": 2.55,
+  "query_results": [
+    {
+      "query": "What is stated in section 'Credit Requirements' regarding Undergraduate degree completion mandates?",
+      "expected": "Undergraduate degree completion mandates a minimum of 120 semester credit hours with a cumulative GPA of at least 2.0 on a 4.0 scale.",
+      "actual": "Informational academic guide. Always consult the university registrar and department advisors for official degree audits.\n\nUndergraduate degree completion mandates a minimum of 120 semester credit hours with a cumulative GPA of at least 2.0 on a 4.0 scale. [Doc: University Academic Regulations and Degree Requirements (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 5.19
+    },
+    {
+      "query": "What is stated in section 'Course Withdrawal Deadline' regarding Students may drop courses?",
+      "expected": "Students may drop courses with a 'W' grade until the end of the 10th week of instruction without affecting grade point average.",
+      "actual": "Informational academic guide. Always consult the university registrar and department advisors for official degree audits.\n\nStudents may drop courses with a 'W' grade until the end of the 10th week of instruction without affecting grade point average. [Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 3.01
+    },
+    {
+      "query": "What is stated in section 'Academic Integrity Policy' regarding Plagiarism and unauthorized collaboration?",
+      "expected": "Plagiarism and unauthorized collaboration result in immediate course failure and formal referral to the University Disciplinary Committee.",
+      "actual": "Informational academic guide. Always consult the university registrar and department advisors for official degree audits.\n\nPlagiarism and unauthorized collaboration result in immediate course failure and formal referral to the University Disciplinary Committee. [Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 4.45
+    },
+    {
+      "query": "What is stated in section 'Honors Eligibility' regarding Graduation with Cum Laude?",
+      "expected": "Graduation with Cum Laude honors requires a GPA of 3.50; Magna Cum Laude requires 3.75; Summa Cum Laude requires 3.90.",
+      "actual": "Informational academic guide. Always consult the university registrar and department advisors for official degree audits.\n\nGraduation with Cum Laude honors requires a GPA of 3.50; Magna Cum Laude requires 3.75; Summa Cum Laude requires 3.90. [Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.15
+    },
+    {
+      "query": "What is stated in section 'Credit Requirements' regarding Undergraduate degree completion mandates?",
+      "expected": "Undergraduate degree completion mandates a minimum of 120 semester credit hours with a cumulative GPA of at least 2.0 on a 4.0 scale.",
+      "actual": "Informational academic guide. Always consult the university registrar and department advisors for official degree audits.\n\nUndergraduate degree completion mandates a minimum of 120 semester credit hours with a cumulative GPA of at least 2.0 on a 4.0 scale. [Doc: University Academic Regulations and Degree Requirements (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.89
+    },
+    {
+      "query": "What is stated in section 'Course Withdrawal Deadline' regarding Students may drop courses?",
+      "expected": "Students may drop courses with a 'W' grade until the end of the 10th week of instruction without affecting grade point average.",
+      "actual": "Informational academic guide. Always consult the university registrar and department advisors for official degree audits.\n\nStudents may drop courses with a 'W' grade until the end of the 10th week of instruction without affecting grade point average. [Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.74
+    },
+    {
+      "query": "What is stated in section 'Academic Integrity Policy' regarding Plagiarism and unauthorized collaboration?",
+      "expected": "Plagiarism and unauthorized collaboration result in immediate course failure and formal referral to the University Disciplinary Committee.",
+      "actual": "Informational academic guide. Always consult the university registrar and department advisors for official degree audits.\n\nPlagiarism and unauthorized collaboration result in immediate course failure and formal referral to the University Disciplinary Committee. [Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 3.71
+    },
+    {
+      "query": "What is stated in section 'Honors Eligibility' regarding Graduation with Cum Laude?",
+      "expected": "Graduation with Cum Laude honors requires a GPA of 3.50; Magna Cum Laude requires 3.75; Summa Cum Laude requires 3.90.",
+      "actual": "Informational academic guide. Always consult the university registrar and department advisors for official degree audits.\n\nGraduation with Cum Laude honors requires a GPA of 3.50; Magna Cum Laude requires 3.75; Summa Cum Laude requires 3.90. [Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.39
+    },
+    {
+      "query": "What is stated in section 'Credit Requirements' regarding Undergraduate degree completion mandates?",
+      "expected": "Undergraduate degree completion mandates a minimum of 120 semester credit hours with a cumulative GPA of at least 2.0 on a 4.0 scale.",
+      "actual": "Informational academic guide. Always consult the university registrar and department advisors for official degree audits.\n\nUndergraduate degree completion mandates a minimum of 120 semester credit hours with a cumulative GPA of at least 2.0 on a 4.0 scale. [Doc: University Academic Regulations and Degree Requirements (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.77
+    },
+    {
+      "query": "What is stated in section 'Course Withdrawal Deadline' regarding Students may drop courses?",
+      "expected": "Students may drop courses with a 'W' grade until the end of the 10th week of instruction without affecting grade point average.",
+      "actual": "Informational academic guide. Always consult the university registrar and department advisors for official degree audits.\n\nStudents may drop courses with a 'W' grade until the end of the 10th week of instruction without affecting grade point average. [Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: University Academic Regulations and Degree Requirements (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.06
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 2.41
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.93
+    },
+    {
+      "query": "What are the mandatory guidelines for alchemical transmutation of lead into pure gold?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 2.17
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 2.9
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.51
+    }
+  ],
+  "project_id": "GEN-03",
+  "project_title": "University Academic Information Assistant",
+  "domain": "Education"
+}
