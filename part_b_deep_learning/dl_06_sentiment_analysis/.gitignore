@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+.pytest_cache/
+data/raw/*.csv
+data/raw/*.tar.gz
