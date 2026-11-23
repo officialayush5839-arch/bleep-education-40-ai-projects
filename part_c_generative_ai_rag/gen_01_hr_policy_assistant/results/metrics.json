@@ -1,0 +1,191 @@
+{
+  "total_queries": 15,
+  "passed_queries": 15,
+  "overall_accuracy": 1.0,
+  "abstention_queries": 5,
+  "abstention_correct": 5,
+  "abstention_accuracy": 1.0,
+  "answerable_queries": 10,
+  "citation_precision": 1.0,
+  "mean_latency_ms": 1.54,
+  "query_results": [
+    {
+      "query": "What is stated in section 'Annual Leave Policy' regarding Full-time employees receive 25?",
+      "expected": "Full-time employees receive 25 days of paid annual leave per calendar year. Unused leave can be rolled over up to a maximum of 5 days into Q1 of the following year.",
+      "actual": "This HR Policy Assistant is for internal workforce guidance and does not replace official employment contracts or legal counsel.\n\nFull-time employees receive 25 days of paid annual leave per calendar year. [Doc: Global HR Enterprise Policies 2026 (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.84
+    },
+    {
+      "query": "What is stated in section 'Sick and Medical Leave' regarding Employees are granted 10?",
+      "expected": "Employees are granted 10 paid sick days annually. A registered medical certificate is mandatory for consecutive absences exceeding 3 days.",
+      "actual": "This HR Policy Assistant is for internal workforce guidance and does not replace official employment contracts or legal counsel.\n\nEmployees are granted 10 paid sick days annually. [Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 3.17
+    },
+    {
+      "query": "What is stated in section 'Remote Work Guidelines' regarding Employees may work remotely?",
+      "expected": "Employees may work remotely up to 2 days per week upon prior written approval from their immediate supervisor and IT security clearance.",
+      "actual": "This HR Policy Assistant is for internal workforce guidance and does not replace official employment contracts or legal counsel.\n\nEmployees may work remotely up to 2 days per week upon prior written approval from their immediate supervisor and IT security clearance. [Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.33
+    },
+    {
+      "query": "What is stated in section 'Code of Professional Conduct' regarding All employees must maintain?",
+      "expected": "All employees must maintain the highest standards of professional ethics. Conflicts of interest must be formally disclosed to HR within 14 days.",
+      "actual": "This HR Policy Assistant is for internal workforce guidance and does not replace official employment contracts or legal counsel.\n\nAll employees must maintain the highest standards of professional ethics. [Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.37
+    },
+    {
+      "query": "What is stated in section 'Annual Leave Policy' regarding Full-time employees receive 25?",
+      "expected": "Full-time employees receive 25 days of paid annual leave per calendar year. Unused leave can be rolled over up to a maximum of 5 days into Q1 of the following year.",
+      "actual": "This HR Policy Assistant is for internal workforce guidance and does not replace official employment contracts or legal counsel.\n\nFull-time employees receive 25 days of paid annual leave per calendar year. [Doc: Global HR Enterprise Policies 2026 (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.22
+    },
+    {
+      "query": "What is stated in section 'Sick and Medical Leave' regarding Employees are granted 10?",
+      "expected": "Employees are granted 10 paid sick days annually. A registered medical certificate is mandatory for consecutive absences exceeding 3 days.",
+      "actual": "This HR Policy Assistant is for internal workforce guidance and does not replace official employment contracts or legal counsel.\n\nEmployees are granted 10 paid sick days annually. [Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.08
+    },
+    {
+      "query": "What is stated in section 'Remote Work Guidelines' regarding Employees may work remotely?",
+      "expected": "Employees may work remotely up to 2 days per week upon prior written approval from their immediate supervisor and IT security clearance.",
+      "actual": "This HR Policy Assistant is for internal workforce guidance and does not replace official employment contracts or legal counsel.\n\nEmployees may work remotely up to 2 days per week upon prior written approval from their immediate supervisor and IT security clearance. [Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.32
+    },
+    {
+      "query": "What is stated in section 'Code of Professional Conduct' regarding All employees must maintain?",
+      "expected": "All employees must maintain the highest standards of professional ethics. Conflicts of interest must be formally disclosed to HR within 14 days.",
+      "actual": "This HR Policy Assistant is for internal workforce guidance and does not replace official employment contracts or legal counsel.\n\nAll employees must maintain the highest standards of professional ethics. [Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.25
+    },
+    {
+      "query": "What is stated in section 'Annual Leave Policy' regarding Full-time employees receive 25?",
+      "expected": "Full-time employees receive 25 days of paid annual leave per calendar year. Unused leave can be rolled over up to a maximum of 5 days into Q1 of the following year.",
+      "actual": "This HR Policy Assistant is for internal workforce guidance and does not replace official employment contracts or legal counsel.\n\nFull-time employees receive 25 days of paid annual leave per calendar year. [Doc: Global HR Enterprise Policies 2026 (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.22
+    },
+    {
+      "query": "What is stated in section 'Sick and Medical Leave' regarding Employees are granted 10?",
+      "expected": "Employees are granted 10 paid sick days annually. A registered medical certificate is mandatory for consecutive absences exceeding 3 days.",
+      "actual": "This HR Policy Assistant is for internal workforce guidance and does not replace official employment contracts or legal counsel.\n\nEmployees are granted 10 paid sick days annually. [Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Global HR Enterprise Policies 2026 (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.07
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.96
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.08
+    },
+    {
+      "query": "What are the mandatory guidelines for alchemical transmutation of lead into pure gold?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 2.09
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.1
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.06
+    }
+  ],
+  "project_id": "GEN-01",
+  "project_title": "Enterprise HR Policy Assistant",
+  "domain": "Human Resources"
+}
