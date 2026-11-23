@@ -1,0 +1,75 @@
+{
+  "trace_id": "TR_AG-02_0042",
+  "project_id": "AG-02",
+  "session_id": "SESS_0042",
+  "scenario_type": "hitl_approved",
+  "start_time": "2026-11-21T12:00:00Z",
+  "end_time": "2026-11-21T12:00:03Z",
+  "status": "COMPLETED",
+  "steps": [
+    {
+      "step_number": 1,
+      "timestamp": "2026-11-21T12:00:01Z",
+      "agent_name": "TicketClassifierAgent",
+      "action": "call_tool",
+      "tool_name": "TicketClassifierTool",
+      "tool_input": {
+        "param_key": "test_val_1",
+        "seed": 42
+      },
+      "duration_ms": 130,
+      "status": "SUCCESS",
+      "tool_output": {
+        "status": "ok",
+        "result": "Execution result for step 1"
+      }
+    },
+    {
+      "step_number": 2,
+      "timestamp": "2026-11-21T12:00:02Z",
+      "agent_name": "PolicyRetrievalAgent",
+      "action": "call_tool",
+      "tool_name": "PolicySearchTool",
+      "tool_input": {
+        "param_key": "test_val_2",
+        "seed": 42
+      },
+      "duration_ms": 140,
+      "status": "SUCCESS",
+      "tool_output": {
+        "status": "ok",
+        "result": "Execution result for step 2"
+      }
+    },
+    {
+      "step_number": 3,
+      "timestamp": "2026-11-21T12:00:03Z",
+      "agent_name": "ResponseDrafterAgent",
+      "action": "call_tool",
+      "tool_name": "TicketClassifierTool",
+      "tool_input": {
+        "param_key": "test_val_3",
+        "seed": 42
+      },
+      "duration_ms": 150,
+      "status": "SUCCESS",
+      "tool_output": {
+        "status": "ok",
+        "result": "Execution result for step 3"
+      },
+      "requires_human_approval": true,
+      "approval_decision": "APPROVED"
+    }
+  ],
+  "hitl_interventions": [
+    {
+      "step_number": 3,
+      "agent_name": "ResponseDrafterAgent",
+      "action_type": "CONSEQUENTIAL_ACTION",
+      "decision": "APPROVED",
+      "approver": "supervisor@enterprise.org",
+      "timestamp": "2026-11-21T12:00:03.500Z"
+    }
+  ],
+  "final_output": "Successfully completed multi-agent workflow for AG-02."
+}
