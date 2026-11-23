@@ -1,0 +1,191 @@
+{
+  "total_queries": 15,
+  "passed_queries": 15,
+  "overall_accuracy": 1.0,
+  "abstention_queries": 5,
+  "abstention_correct": 5,
+  "abstention_accuracy": 1.0,
+  "answerable_queries": 10,
+  "citation_precision": 1.0,
+  "mean_latency_ms": 1.92,
+  "query_results": [
+    {
+      "query": "What is stated in section 'Authentication Tokens' regarding API requests must provide?",
+      "expected": "API requests must provide a valid Bearer token in the Authorization header. Expired tokens return HTTP 401 Unauthorized.",
+      "actual": "Documentation assistant for software libraries. Code examples should be tested before production deployment.\n\nAPI requests must provide a valid Bearer token in the Authorization header. [Doc: REST API Integration Reference (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: REST API Integration Reference (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.85
+    },
+    {
+      "query": "What is stated in section 'Rate Limiting Policies' regarding Standard API tiers are?",
+      "expected": "Standard API tiers are throttled to 100 requests per minute. Responses include headers X-RateLimit-Limit and X-RateLimit-Remaining.",
+      "actual": "Documentation assistant for software libraries. Code examples should be tested before production deployment.\n\nStandard API tiers are throttled to 100 requests per minute. [Doc: REST API Integration Reference (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: REST API Integration Reference (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.27
+    },
+    {
+      "query": "What is stated in section 'Pagination Syntax' regarding Collection endpoints accept query?",
+      "expected": "Collection endpoints accept query parameters 'limit' (default 20, max 100) and 'cursor' for opaque pagination tokens.",
+      "actual": "Documentation assistant for software libraries. Code examples should be tested before production deployment.\n\nCollection endpoints accept query parameters 'limit' (default 20, max 100) and 'cursor' for opaque pagination tokens. [Doc: REST API Integration Reference (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: REST API Integration Reference (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.17
+    },
+    {
+      "query": "What is stated in section 'Error Codes Schema' regarding Errors return structured JSON?",
+      "expected": "Errors return structured JSON containing 'error_code', 'message', and a correlation 'request_id' for diagnostic tracing.",
+      "actual": "Documentation assistant for software libraries. Code examples should be tested before production deployment.\n\nErrors return structured JSON containing 'error_code', 'message', and a correlation 'request_id' for diagnostic tracing. [Doc: REST API Integration Reference (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: REST API Integration Reference (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 3.03
+    },
+    {
+      "query": "What is stated in section 'Authentication Tokens' regarding API requests must provide?",
+      "expected": "API requests must provide a valid Bearer token in the Authorization header. Expired tokens return HTTP 401 Unauthorized.",
+      "actual": "Documentation assistant for software libraries. Code examples should be tested before production deployment.\n\nAPI requests must provide a valid Bearer token in the Authorization header. [Doc: REST API Integration Reference (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: REST API Integration Reference (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.99
+    },
+    {
+      "query": "What is stated in section 'Rate Limiting Policies' regarding Standard API tiers are?",
+      "expected": "Standard API tiers are throttled to 100 requests per minute. Responses include headers X-RateLimit-Limit and X-RateLimit-Remaining.",
+      "actual": "Documentation assistant for software libraries. Code examples should be tested before production deployment.\n\nStandard API tiers are throttled to 100 requests per minute. [Doc: REST API Integration Reference (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: REST API Integration Reference (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.36
+    },
+    {
+      "query": "What is stated in section 'Pagination Syntax' regarding Collection endpoints accept query?",
+      "expected": "Collection endpoints accept query parameters 'limit' (default 20, max 100) and 'cursor' for opaque pagination tokens.",
+      "actual": "Documentation assistant for software libraries. Code examples should be tested before production deployment.\n\nCollection endpoints accept query parameters 'limit' (default 20, max 100) and 'cursor' for opaque pagination tokens. [Doc: REST API Integration Reference (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: REST API Integration Reference (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.42
+    },
+    {
+      "query": "What is stated in section 'Error Codes Schema' regarding Errors return structured JSON?",
+      "expected": "Errors return structured JSON containing 'error_code', 'message', and a correlation 'request_id' for diagnostic tracing.",
+      "actual": "Documentation assistant for software libraries. Code examples should be tested before production deployment.\n\nErrors return structured JSON containing 'error_code', 'message', and a correlation 'request_id' for diagnostic tracing. [Doc: REST API Integration Reference (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: REST API Integration Reference (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.03
+    },
+    {
+      "query": "What is stated in section 'Authentication Tokens' regarding API requests must provide?",
+      "expected": "API requests must provide a valid Bearer token in the Authorization header. Expired tokens return HTTP 401 Unauthorized.",
+      "actual": "Documentation assistant for software libraries. Code examples should be tested before production deployment.\n\nAPI requests must provide a valid Bearer token in the Authorization header. [Doc: REST API Integration Reference (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: REST API Integration Reference (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.0
+    },
+    {
+      "query": "What is stated in section 'Rate Limiting Policies' regarding Standard API tiers are?",
+      "expected": "Standard API tiers are throttled to 100 requests per minute. Responses include headers X-RateLimit-Limit and X-RateLimit-Remaining.",
+      "actual": "Documentation assistant for software libraries. Code examples should be tested before production deployment.\n\nStandard API tiers are throttled to 100 requests per minute. [Doc: REST API Integration Reference (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: REST API Integration Reference (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: REST API Integration Reference (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 6.31
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.21
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.06
+    },
+    {
+      "query": "What are the mandatory guidelines for alchemical transmutation of lead into pure gold?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.71
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.32
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.04
+    }
+  ],
+  "project_id": "GEN-08",
+  "project_title": "Software Documentation Assistant",
+  "domain": "Developer Tools"
+}
