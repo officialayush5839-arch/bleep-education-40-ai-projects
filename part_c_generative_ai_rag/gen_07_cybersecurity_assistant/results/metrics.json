@@ -1,0 +1,191 @@
+{
+  "total_queries": 15,
+  "passed_queries": 15,
+  "overall_accuracy": 1.0,
+  "abstention_queries": 5,
+  "abstention_correct": 5,
+  "abstention_accuracy": 1.0,
+  "answerable_queries": 10,
+  "citation_precision": 1.0,
+  "mean_latency_ms": 2.61,
+  "query_results": [
+    {
+      "query": "What is stated in section 'Incident Response Lifecycle' regarding All detected high-severity alerts?",
+      "expected": "All detected high-severity alerts must follow the 4-phase NIST framework: Preparation, Detection & Analysis, Containment, and Post-Incident Recovery.",
+      "actual": "Security awareness tool adhering to CISA/NIST best practices. Does not guarantee immunity from cyber threats.\n\nAll detected high-severity alerts must follow the 4-phase NIST framework: Preparation, Detection & Analysis, Containment, and Post-Incident Recovery. [Doc: Enterprise Cybersecurity Operations Manual (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 4.25
+    },
+    {
+      "query": "What is stated in section 'Access Control and MFA' regarding Multi-Factor Authentication (MFA) with?",
+      "expected": "Multi-Factor Authentication (MFA) with FIDO2 hardware tokens is mandatory for all administrative access and remote SSH sessions.",
+      "actual": "Security awareness tool adhering to CISA/NIST best practices. Does not guarantee immunity from cyber threats.\n\nMulti-Factor Authentication (MFA) with FIDO2 hardware tokens is mandatory for all administrative access and remote SSH sessions. [Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.01
+    },
+    {
+      "query": "What is stated in section 'Phishing Triage Protocols' regarding Reported suspicious emails must?",
+      "expected": "Reported suspicious emails must be quarantined automatically, and extracted URLs detonated in an isolated malware analysis sandbox.",
+      "actual": "Security awareness tool adhering to CISA/NIST best practices. Does not guarantee immunity from cyber threats.\n\nReported suspicious emails must be quarantined automatically, and extracted URLs detonated in an isolated malware analysis sandbox. [Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.21
+    },
+    {
+      "query": "What is stated in section 'Zero-Trust Architecture' regarding Network perimeter security enforces?",
+      "expected": "Network perimeter security enforces continuous mutual TLS authentication and micro-segmentation across all workload clusters.",
+      "actual": "Security awareness tool adhering to CISA/NIST best practices. Does not guarantee immunity from cyber threats.\n\nNetwork perimeter security enforces continuous mutual TLS authentication and micro-segmentation across all workload clusters. [Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 3.27
+    },
+    {
+      "query": "What is stated in section 'Incident Response Lifecycle' regarding All detected high-severity alerts?",
+      "expected": "All detected high-severity alerts must follow the 4-phase NIST framework: Preparation, Detection & Analysis, Containment, and Post-Incident Recovery.",
+      "actual": "Security awareness tool adhering to CISA/NIST best practices. Does not guarantee immunity from cyber threats.\n\nAll detected high-severity alerts must follow the 4-phase NIST framework: Preparation, Detection & Analysis, Containment, and Post-Incident Recovery. [Doc: Enterprise Cybersecurity Operations Manual (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.0
+    },
+    {
+      "query": "What is stated in section 'Access Control and MFA' regarding Multi-Factor Authentication (MFA) with?",
+      "expected": "Multi-Factor Authentication (MFA) with FIDO2 hardware tokens is mandatory for all administrative access and remote SSH sessions.",
+      "actual": "Security awareness tool adhering to CISA/NIST best practices. Does not guarantee immunity from cyber threats.\n\nMulti-Factor Authentication (MFA) with FIDO2 hardware tokens is mandatory for all administrative access and remote SSH sessions. [Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.75
+    },
+    {
+      "query": "What is stated in section 'Phishing Triage Protocols' regarding Reported suspicious emails must?",
+      "expected": "Reported suspicious emails must be quarantined automatically, and extracted URLs detonated in an isolated malware analysis sandbox.",
+      "actual": "Security awareness tool adhering to CISA/NIST best practices. Does not guarantee immunity from cyber threats.\n\nReported suspicious emails must be quarantined automatically, and extracted URLs detonated in an isolated malware analysis sandbox. [Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 5.14
+    },
+    {
+      "query": "What is stated in section 'Zero-Trust Architecture' regarding Network perimeter security enforces?",
+      "expected": "Network perimeter security enforces continuous mutual TLS authentication and micro-segmentation across all workload clusters.",
+      "actual": "Security awareness tool adhering to CISA/NIST best practices. Does not guarantee immunity from cyber threats.\n\nNetwork perimeter security enforces continuous mutual TLS authentication and micro-segmentation across all workload clusters. [Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.48
+    },
+    {
+      "query": "What is stated in section 'Incident Response Lifecycle' regarding All detected high-severity alerts?",
+      "expected": "All detected high-severity alerts must follow the 4-phase NIST framework: Preparation, Detection & Analysis, Containment, and Post-Incident Recovery.",
+      "actual": "Security awareness tool adhering to CISA/NIST best practices. Does not guarantee immunity from cyber threats.\n\nAll detected high-severity alerts must follow the 4-phase NIST framework: Preparation, Detection & Analysis, Containment, and Post-Incident Recovery. [Doc: Enterprise Cybersecurity Operations Manual (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.7
+    },
+    {
+      "query": "What is stated in section 'Access Control and MFA' regarding Multi-Factor Authentication (MFA) with?",
+      "expected": "Multi-Factor Authentication (MFA) with FIDO2 hardware tokens is mandatory for all administrative access and remote SSH sessions.",
+      "actual": "Security awareness tool adhering to CISA/NIST best practices. Does not guarantee immunity from cyber threats.\n\nMulti-Factor Authentication (MFA) with FIDO2 hardware tokens is mandatory for all administrative access and remote SSH sessions. [Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Enterprise Cybersecurity Operations Manual (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.58
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 2.67
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.37
+    },
+    {
+      "query": "What are the mandatory guidelines for alchemical transmutation of lead into pure gold?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.66
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.92
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 5.06
+    }
+  ],
+  "project_id": "GEN-07",
+  "project_title": "Cybersecurity Awareness Assistant",
+  "domain": "Cybersecurity"
+}
