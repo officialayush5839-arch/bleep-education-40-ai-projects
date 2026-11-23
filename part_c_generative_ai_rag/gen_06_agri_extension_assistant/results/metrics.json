@@ -1,0 +1,191 @@
+{
+  "total_queries": 15,
+  "passed_queries": 15,
+  "overall_accuracy": 1.0,
+  "abstention_queries": 5,
+  "abstention_correct": 5,
+  "abstention_accuracy": 1.0,
+  "answerable_queries": 10,
+  "citation_precision": 1.0,
+  "mean_latency_ms": 1.53,
+  "query_results": [
+    {
+      "query": "What is stated in section 'Soil Nutrient Management' regarding Optimal wheat production requires?",
+      "expected": "Optimal wheat production requires an N-P-K nutrient ratio of 120:60:40 kg/ha. Nitrogen should be split across basal and top-dressing applications.",
+      "actual": "Agronomic recommendations should be verified with local agricultural extension officers and soil testing labs.\n\nOptimal wheat production requires an N-P-K nutrient ratio of 120:60:40 kg/ha. [Doc: Integrated Agronomic Extension Manual (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Integrated Agronomic Extension Manual (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.22
+    },
+    {
+      "query": "What is stated in section 'Soil pH Amelioration' regarding For acidic soils with?",
+      "expected": "For acidic soils with pH below 5.5, agricultural lime application at 2.5 tonnes/ha is recommended before the monsoon sowing window.",
+      "actual": "Agronomic recommendations should be verified with local agricultural extension officers and soil testing labs.\n\nFor acidic soils with pH below 5.5, agricultural lime application at 2.5 tonnes/ha is recommended before the monsoon sowing window. [Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.08
+    },
+    {
+      "query": "What is stated in section 'Pest and Disease Control' regarding Early blight in tomato?",
+      "expected": "Early blight in tomato crops should be managed using prophylactic bio-fungicide sprays followed by copper oxychloride if symptoms persist.",
+      "actual": "Agronomic recommendations should be verified with local agricultural extension officers and soil testing labs.\n\nEarly blight in tomato crops should be managed using prophylactic bio-fungicide sprays followed by copper oxychloride if symptoms persist. [Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.77
+    },
+    {
+      "query": "What is stated in section 'Irrigation Scheduling' regarding Drip irrigation delivers 35%?",
+      "expected": "Drip irrigation delivers 35% higher water use efficiency compared to conventional flood methods and maintains root-zone moisture at 70% field capacity.",
+      "actual": "Agronomic recommendations should be verified with local agricultural extension officers and soil testing labs.\n\nDrip irrigation delivers 35% higher water use efficiency compared to conventional flood methods and maintains root-zone moisture at 70% field capacity. [Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.32
+    },
+    {
+      "query": "What is stated in section 'Soil Nutrient Management' regarding Optimal wheat production requires?",
+      "expected": "Optimal wheat production requires an N-P-K nutrient ratio of 120:60:40 kg/ha. Nitrogen should be split across basal and top-dressing applications.",
+      "actual": "Agronomic recommendations should be verified with local agricultural extension officers and soil testing labs.\n\nOptimal wheat production requires an N-P-K nutrient ratio of 120:60:40 kg/ha. [Doc: Integrated Agronomic Extension Manual (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Integrated Agronomic Extension Manual (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.61
+    },
+    {
+      "query": "What is stated in section 'Soil pH Amelioration' regarding For acidic soils with?",
+      "expected": "For acidic soils with pH below 5.5, agricultural lime application at 2.5 tonnes/ha is recommended before the monsoon sowing window.",
+      "actual": "Agronomic recommendations should be verified with local agricultural extension officers and soil testing labs.\n\nFor acidic soils with pH below 5.5, agricultural lime application at 2.5 tonnes/ha is recommended before the monsoon sowing window. [Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.3
+    },
+    {
+      "query": "What is stated in section 'Pest and Disease Control' regarding Early blight in tomato?",
+      "expected": "Early blight in tomato crops should be managed using prophylactic bio-fungicide sprays followed by copper oxychloride if symptoms persist.",
+      "actual": "Agronomic recommendations should be verified with local agricultural extension officers and soil testing labs.\n\nEarly blight in tomato crops should be managed using prophylactic bio-fungicide sprays followed by copper oxychloride if symptoms persist. [Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.13
+    },
+    {
+      "query": "What is stated in section 'Irrigation Scheduling' regarding Drip irrigation delivers 35%?",
+      "expected": "Drip irrigation delivers 35% higher water use efficiency compared to conventional flood methods and maintains root-zone moisture at 70% field capacity.",
+      "actual": "Agronomic recommendations should be verified with local agricultural extension officers and soil testing labs.\n\nDrip irrigation delivers 35% higher water use efficiency compared to conventional flood methods and maintains root-zone moisture at 70% field capacity. [Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.85
+    },
+    {
+      "query": "What is stated in section 'Soil Nutrient Management' regarding Optimal wheat production requires?",
+      "expected": "Optimal wheat production requires an N-P-K nutrient ratio of 120:60:40 kg/ha. Nitrogen should be split across basal and top-dressing applications.",
+      "actual": "Agronomic recommendations should be verified with local agricultural extension officers and soil testing labs.\n\nOptimal wheat production requires an N-P-K nutrient ratio of 120:60:40 kg/ha. [Doc: Integrated Agronomic Extension Manual (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Integrated Agronomic Extension Manual (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.41
+    },
+    {
+      "query": "What is stated in section 'Soil pH Amelioration' regarding For acidic soils with?",
+      "expected": "For acidic soils with pH below 5.5, agricultural lime application at 2.5 tonnes/ha is recommended before the monsoon sowing window.",
+      "actual": "Agronomic recommendations should be verified with local agricultural extension officers and soil testing labs.\n\nFor acidic soils with pH below 5.5, agricultural lime application at 2.5 tonnes/ha is recommended before the monsoon sowing window. [Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Integrated Agronomic Extension Manual (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Integrated Agronomic Extension Manual (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.3
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.13
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.07
+    },
+    {
+      "query": "What are the mandatory guidelines for alchemical transmutation of lead into pure gold?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 2.65
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.1
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.04
+    }
+  ],
+  "project_id": "GEN-06",
+  "project_title": "Agricultural Knowledge Assistant",
+  "domain": "AgriTech"
+}
