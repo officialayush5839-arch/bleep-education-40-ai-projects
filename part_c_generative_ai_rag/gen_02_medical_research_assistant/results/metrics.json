@@ -1,0 +1,191 @@
+{
+  "total_queries": 15,
+  "passed_queries": 15,
+  "overall_accuracy": 1.0,
+  "abstention_queries": 5,
+  "abstention_correct": 5,
+  "abstention_accuracy": 1.0,
+  "answerable_queries": 10,
+  "citation_precision": 1.0,
+  "mean_latency_ms": 1.54,
+  "query_results": [
+    {
+      "query": "What is stated in section 'Dosing Schedule' regarding The standard adult therapeutic?",
+      "expected": "The standard adult therapeutic dose is 50 mg administered orally twice daily with meals. Renal dose adjustments are indicated for creatinine clearance below 30 mL/min.",
+      "actual": "This tool is an informational literature retrieval system and is strictly NOT a clinical diagnostic tool or medical device.\n\nThe standard adult therapeutic dose is 50 mg administered orally twice daily with meals. [Doc: Clinical Research Pharmacotherapy Guidelines (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.29
+    },
+    {
+      "query": "What is stated in section 'Adverse Event Reporting' regarding Adverse reactions including mild?",
+      "expected": "Adverse reactions including mild nausea, headache, and transient elevation in transaminases must be documented within 24 hours in the clinical study registry.",
+      "actual": "This tool is an informational literature retrieval system and is strictly NOT a clinical diagnostic tool or medical device.\n\nAdverse reactions including mild nausea, headache, and transient elevation in transaminases must be documented within 24 hours in the clinical study registry. [Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.33
+    },
+    {
+      "query": "What is stated in section 'Contraindications' regarding Concurrent administration with strong?",
+      "expected": "Concurrent administration with strong CYP3A4 inhibitors is strictly contraindicated due to heightened risk of systemic toxicity.",
+      "actual": "This tool is an informational literature retrieval system and is strictly NOT a clinical diagnostic tool or medical device.\n\nConcurrent administration with strong CYP3A4 inhibitors is strictly contraindicated due to heightened risk of systemic toxicity. [Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.19
+    },
+    {
+      "query": "What is stated in section 'Screening Protocol' regarding Prior to drug initiation,?",
+      "expected": "Prior to drug initiation, patients must undergo baseline liver function testing, serum electrolyte analysis, and an anterior-posterior chest radiograph.",
+      "actual": "This tool is an informational literature retrieval system and is strictly NOT a clinical diagnostic tool or medical device.\n\nPrior to drug initiation, patients must undergo baseline liver function testing, serum electrolyte analysis, and an anterior-posterior chest radiograph. [Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.43
+    },
+    {
+      "query": "What is stated in section 'Dosing Schedule' regarding The standard adult therapeutic?",
+      "expected": "The standard adult therapeutic dose is 50 mg administered orally twice daily with meals. Renal dose adjustments are indicated for creatinine clearance below 30 mL/min.",
+      "actual": "This tool is an informational literature retrieval system and is strictly NOT a clinical diagnostic tool or medical device.\n\nThe standard adult therapeutic dose is 50 mg administered orally twice daily with meals. [Doc: Clinical Research Pharmacotherapy Guidelines (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.16
+    },
+    {
+      "query": "What is stated in section 'Adverse Event Reporting' regarding Adverse reactions including mild?",
+      "expected": "Adverse reactions including mild nausea, headache, and transient elevation in transaminases must be documented within 24 hours in the clinical study registry.",
+      "actual": "This tool is an informational literature retrieval system and is strictly NOT a clinical diagnostic tool or medical device.\n\nAdverse reactions including mild nausea, headache, and transient elevation in transaminases must be documented within 24 hours in the clinical study registry. [Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.15
+    },
+    {
+      "query": "What is stated in section 'Contraindications' regarding Concurrent administration with strong?",
+      "expected": "Concurrent administration with strong CYP3A4 inhibitors is strictly contraindicated due to heightened risk of systemic toxicity.",
+      "actual": "This tool is an informational literature retrieval system and is strictly NOT a clinical diagnostic tool or medical device.\n\nConcurrent administration with strong CYP3A4 inhibitors is strictly contraindicated due to heightened risk of systemic toxicity. [Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.1
+    },
+    {
+      "query": "What is stated in section 'Screening Protocol' regarding Prior to drug initiation,?",
+      "expected": "Prior to drug initiation, patients must undergo baseline liver function testing, serum electrolyte analysis, and an anterior-posterior chest radiograph.",
+      "actual": "This tool is an informational literature retrieval system and is strictly NOT a clinical diagnostic tool or medical device.\n\nPrior to drug initiation, patients must undergo baseline liver function testing, serum electrolyte analysis, and an anterior-posterior chest radiograph. [Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.09
+    },
+    {
+      "query": "What is stated in section 'Dosing Schedule' regarding The standard adult therapeutic?",
+      "expected": "The standard adult therapeutic dose is 50 mg administered orally twice daily with meals. Renal dose adjustments are indicated for creatinine clearance below 30 mL/min.",
+      "actual": "This tool is an informational literature retrieval system and is strictly NOT a clinical diagnostic tool or medical device.\n\nThe standard adult therapeutic dose is 50 mg administered orally twice daily with meals. [Doc: Clinical Research Pharmacotherapy Guidelines (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.19
+    },
+    {
+      "query": "What is stated in section 'Adverse Event Reporting' regarding Adverse reactions including mild?",
+      "expected": "Adverse reactions including mild nausea, headache, and transient elevation in transaminases must be documented within 24 hours in the clinical study registry.",
+      "actual": "This tool is an informational literature retrieval system and is strictly NOT a clinical diagnostic tool or medical device.\n\nAdverse reactions including mild nausea, headache, and transient elevation in transaminases must be documented within 24 hours in the clinical study registry. [Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Clinical Research Pharmacotherapy Guidelines (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.5
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.57
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.13
+    },
+    {
+      "query": "What are the mandatory guidelines for alchemical transmutation of lead into pure gold?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.76
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.18
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 3.11
+    }
+  ],
+  "project_id": "GEN-02",
+  "project_title": "Medical Research Literature Assistant",
+  "domain": "Medical Research"
+}
