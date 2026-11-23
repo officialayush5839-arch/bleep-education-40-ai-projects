@@ -1,0 +1,191 @@
+{
+  "total_queries": 15,
+  "passed_queries": 15,
+  "overall_accuracy": 1.0,
+  "abstention_queries": 5,
+  "abstention_correct": 5,
+  "abstention_accuracy": 1.0,
+  "answerable_queries": 10,
+  "citation_precision": 1.0,
+  "mean_latency_ms": 1.3,
+  "query_results": [
+    {
+      "query": "What is stated in section 'Limitation of Liability' regarding Neither party shall be?",
+      "expected": "Neither party shall be liable for indirect, incidental, or consequential damages. Total aggregate liability under this agreement is capped at fees paid in the prior 12 months.",
+      "actual": "This software is for research purposes only and does NOT constitute legal advice or create an attorney-client relationship.\n\nNeither party shall be liable for indirect, incidental, or consequential damages. [Doc: Standard Commercial Service Agreement (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Standard Commercial Service Agreement (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 2.18
+    },
+    {
+      "query": "What is stated in section 'Confidentiality Obligations' regarding Proprietary information disclosed by?",
+      "expected": "Proprietary information disclosed by either party must be protected for a period of 5 years following disclosure using reasonable industry care.",
+      "actual": "This software is for research purposes only and does NOT constitute legal advice or create an attorney-client relationship.\n\nProprietary information disclosed by either party must be protected for a period of 5 years following disclosure using reasonable industry care. [Doc: Standard Commercial Service Agreement (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Standard Commercial Service Agreement (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.31
+    },
+    {
+      "query": "What is stated in section 'Termination Clause' regarding Either party may terminate?",
+      "expected": "Either party may terminate this agreement with 30 days prior written notice in the event of an uncured material breach by the other party.",
+      "actual": "This software is for research purposes only and does NOT constitute legal advice or create an attorney-client relationship.\n\nEither party may terminate this agreement with 30 days prior written notice in the event of an uncured material breach by the other party. [Doc: Standard Commercial Service Agreement (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Standard Commercial Service Agreement (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.17
+    },
+    {
+      "query": "What is stated in section 'Governing Law and Jurisdiction' regarding This contract shall be?",
+      "expected": "This contract shall be construed and governed according to the laws of the State of Delaware, without regard to choice of law provisions.",
+      "actual": "This software is for research purposes only and does NOT constitute legal advice or create an attorney-client relationship.\n\nThis contract shall be construed and governed according to the laws of the State of Delaware, without regard to choice of law provisions. [Doc: Standard Commercial Service Agreement (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Standard Commercial Service Agreement (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.15
+    },
+    {
+      "query": "What is stated in section 'Limitation of Liability' regarding Neither party shall be?",
+      "expected": "Neither party shall be liable for indirect, incidental, or consequential damages. Total aggregate liability under this agreement is capped at fees paid in the prior 12 months.",
+      "actual": "This software is for research purposes only and does NOT constitute legal advice or create an attorney-client relationship.\n\nNeither party shall be liable for indirect, incidental, or consequential damages. [Doc: Standard Commercial Service Agreement (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Standard Commercial Service Agreement (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.11
+    },
+    {
+      "query": "What is stated in section 'Confidentiality Obligations' regarding Proprietary information disclosed by?",
+      "expected": "Proprietary information disclosed by either party must be protected for a period of 5 years following disclosure using reasonable industry care.",
+      "actual": "This software is for research purposes only and does NOT constitute legal advice or create an attorney-client relationship.\n\nProprietary information disclosed by either party must be protected for a period of 5 years following disclosure using reasonable industry care. [Doc: Standard Commercial Service Agreement (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Standard Commercial Service Agreement (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.09
+    },
+    {
+      "query": "What is stated in section 'Termination Clause' regarding Either party may terminate?",
+      "expected": "Either party may terminate this agreement with 30 days prior written notice in the event of an uncured material breach by the other party.",
+      "actual": "This software is for research purposes only and does NOT constitute legal advice or create an attorney-client relationship.\n\nEither party may terminate this agreement with 30 days prior written notice in the event of an uncured material breach by the other party. [Doc: Standard Commercial Service Agreement (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Standard Commercial Service Agreement (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.8
+    },
+    {
+      "query": "What is stated in section 'Governing Law and Jurisdiction' regarding This contract shall be?",
+      "expected": "This contract shall be construed and governed according to the laws of the State of Delaware, without regard to choice of law provisions.",
+      "actual": "This software is for research purposes only and does NOT constitute legal advice or create an attorney-client relationship.\n\nThis contract shall be construed and governed according to the laws of the State of Delaware, without regard to choice of law provisions. [Doc: Standard Commercial Service Agreement (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Standard Commercial Service Agreement (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.12
+    },
+    {
+      "query": "What is stated in section 'Limitation of Liability' regarding Neither party shall be?",
+      "expected": "Neither party shall be liable for indirect, incidental, or consequential damages. Total aggregate liability under this agreement is capped at fees paid in the prior 12 months.",
+      "actual": "This software is for research purposes only and does NOT constitute legal advice or create an attorney-client relationship.\n\nNeither party shall be liable for indirect, incidental, or consequential damages. [Doc: Standard Commercial Service Agreement (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Standard Commercial Service Agreement (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.07
+    },
+    {
+      "query": "What is stated in section 'Confidentiality Obligations' regarding Proprietary information disclosed by?",
+      "expected": "Proprietary information disclosed by either party must be protected for a period of 5 years following disclosure using reasonable industry care.",
+      "actual": "This software is for research purposes only and does NOT constitute legal advice or create an attorney-client relationship.\n\nProprietary information disclosed by either party must be protected for a period of 5 years following disclosure using reasonable industry care. [Doc: Standard Commercial Service Agreement (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Standard Commercial Service Agreement (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Standard Commercial Service Agreement (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.07
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.06
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.07
+    },
+    {
+      "query": "What are the mandatory guidelines for alchemical transmutation of lead into pure gold?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.03
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 2.08
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.13
+    }
+  ],
+  "project_id": "GEN-04",
+  "project_title": "Legal Document Research Assistant",
+  "domain": "Legal Technology"
+}
