@@ -13,7 +13,10 @@ from PIL import Image
 try:
     import pymupdf as fitz
 except ImportError:
-    import fitz
+    try:
+        import fitz
+    except ImportError:
+        fitz = None
 
 from common_utils.report_generator import (
     generate_pdf_report,
@@ -193,6 +196,7 @@ def test_generate_pdf_report_chart_embedding(tmp_path):
     assert os.path.exists(res2)
 
 
+@pytest.mark.skipif(fitz is None, reason="PyMuPDF not installed")
 def test_generate_pdf_report_content_verification(tmp_path, sample_metadata):
     """Extracts text using PyMuPDF and verifies presence of all 12 section titles and metadata."""
     output_pdf = tmp_path / "content_verify.pdf"
@@ -222,6 +226,7 @@ def test_generate_pdf_report_content_verification(tmp_path, sample_metadata):
         assert f"Section {sec_num}:" in full_text
 
 
+@pytest.mark.skipif(fitz is None, reason="PyMuPDF not installed")
 def test_generate_pdf_report_rubric_checklist(tmp_path):
     """Verifies Section 12 contains Bleep 100-mark rubric criteria and Part E checklist."""
     output_pdf = tmp_path / "rubric_verify.pdf"
@@ -261,6 +266,7 @@ def test_generate_pdf_report_invalid_inputs():
         generate_pdf_report(project_id="ID", project_title="Title", domain="", output_path="out.pdf")
 
 
+@pytest.mark.skipif(fitz is None, reason="PyMuPDF not installed")
 def test_multipage_running_header_text_verification(tmp_path):
     """Verifies pages >= 2 contain dynamic project_id and domain in running headers (not shadowed default)."""
     output_pdf = tmp_path / "multipage_header.pdf"
@@ -291,6 +297,7 @@ def test_multipage_running_header_text_verification(tmp_path):
     doc.close()
 
 
+@pytest.mark.skipif(fitz is None, reason="PyMuPDF not installed")
 def test_corrupted_image_and_directory_chart_path(tmp_path):
     """Verifies corrupted image or directory as chart_path falls back to callout placeholder."""
     # 1. Corrupted image file
@@ -331,6 +338,7 @@ def test_corrupted_image_and_directory_chart_path(tmp_path):
     assert "Evaluation Chart Notice" in full_text2
 
 
+@pytest.mark.skipif(fitz is None, reason="PyMuPDF not installed")
 def test_non_string_keys_in_metrics_dict(tmp_path):
     """Verifies integer or non-string keys in metrics dict do not trigger AttributeError."""
     pdf_path = tmp_path / "non_string_metrics.pdf"
@@ -357,6 +365,7 @@ def test_non_string_keys_in_metrics_dict(tmp_path):
     assert "202" in full_text
 
 
+@pytest.mark.skipif(fitz is None, reason="PyMuPDF not installed")
 def test_oversized_section_9_disclaimer(tmp_path):
     """Verifies oversized Section 9 text (> 10,000 characters) renders safely without LayoutError."""
     # Create disclaimer longer than 10,000 characters
