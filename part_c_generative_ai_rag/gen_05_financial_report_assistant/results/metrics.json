@@ -1,0 +1,191 @@
+{
+  "total_queries": 15,
+  "passed_queries": 15,
+  "overall_accuracy": 1.0,
+  "abstention_queries": 5,
+  "abstention_correct": 5,
+  "abstention_accuracy": 1.0,
+  "answerable_queries": 10,
+  "citation_precision": 1.0,
+  "mean_latency_ms": 2.06,
+  "query_results": [
+    {
+      "query": "What is stated in section 'Revenue and Operating Performance' regarding Total consolidated revenue for?",
+      "expected": "Total consolidated revenue for fiscal year 2025 reached $4.2 billion, representing an 8.5% year-over-year increase driven by cloud services expansion.",
+      "actual": "Informational research tool. Does not provide investment, tax, or financial advisory recommendations.\n\nTotal consolidated revenue for fiscal year 2025 reached $4.2 billion, representing an 8.5% year-over-year increase driven by cloud services expansion. [Doc: Annual Financial Report and MD&A Disclosure (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.66
+    },
+    {
+      "query": "What is stated in section 'Operating Margin and EBITDA' regarding Adjusted EBITDA grew by?",
+      "expected": "Adjusted EBITDA grew by 12.1% to $1.15 billion, with operating margin expanding 140 basis points to 27.4% due to operational efficiencies.",
+      "actual": "Informational research tool. Does not provide investment, tax, or financial advisory recommendations.\n\nAdjusted EBITDA grew by 12.1% to $1.15 billion, with operating margin expanding 140 basis points to 27.4% due to operational efficiencies. [Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.4
+    },
+    {
+      "query": "What is stated in section 'Liquidity and Capital Resources' regarding Cash and cash equivalents?",
+      "expected": "Cash and cash equivalents totaled $620 million as of December 31, 2025. Free cash flow generation remained robust at $480 million.",
+      "actual": "Informational research tool. Does not provide investment, tax, or financial advisory recommendations.\n\nCash and cash equivalents totaled $620 million as of December 31, 2025. [Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 3.9
+    },
+    {
+      "query": "What is stated in section 'Market Risk Exposures' regarding The company manages foreign?",
+      "expected": "The company manages foreign exchange and interest rate volatility through structured hedge accounting and derivative instruments.",
+      "actual": "Informational research tool. Does not provide investment, tax, or financial advisory recommendations.\n\nThe company manages foreign exchange and interest rate volatility through structured hedge accounting and derivative instruments. [Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.93
+    },
+    {
+      "query": "What is stated in section 'Revenue and Operating Performance' regarding Total consolidated revenue for?",
+      "expected": "Total consolidated revenue for fiscal year 2025 reached $4.2 billion, representing an 8.5% year-over-year increase driven by cloud services expansion.",
+      "actual": "Informational research tool. Does not provide investment, tax, or financial advisory recommendations.\n\nTotal consolidated revenue for fiscal year 2025 reached $4.2 billion, representing an 8.5% year-over-year increase driven by cloud services expansion. [Doc: Annual Financial Report and MD&A Disclosure (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.54
+    },
+    {
+      "query": "What is stated in section 'Operating Margin and EBITDA' regarding Adjusted EBITDA grew by?",
+      "expected": "Adjusted EBITDA grew by 12.1% to $1.15 billion, with operating margin expanding 140 basis points to 27.4% due to operational efficiencies.",
+      "actual": "Informational research tool. Does not provide investment, tax, or financial advisory recommendations.\n\nAdjusted EBITDA grew by 12.1% to $1.15 billion, with operating margin expanding 140 basis points to 27.4% due to operational efficiencies. [Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.41
+    },
+    {
+      "query": "What is stated in section 'Liquidity and Capital Resources' regarding Cash and cash equivalents?",
+      "expected": "Cash and cash equivalents totaled $620 million as of December 31, 2025. Free cash flow generation remained robust at $480 million.",
+      "actual": "Informational research tool. Does not provide investment, tax, or financial advisory recommendations.\n\nCash and cash equivalents totaled $620 million as of December 31, 2025. [Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 2, Section: Overview]",
+      "citations": [
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 2, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 3), Page: 1, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 1), Page: 3, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 3.29
+    },
+    {
+      "query": "What is stated in section 'Market Risk Exposures' regarding The company manages foreign?",
+      "expected": "The company manages foreign exchange and interest rate volatility through structured hedge accounting and derivative instruments.",
+      "actual": "Informational research tool. Does not provide investment, tax, or financial advisory recommendations.\n\nThe company manages foreign exchange and interest rate volatility through structured hedge accounting and derivative instruments. [Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 3, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 3), Page: 2, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 2), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.6
+    },
+    {
+      "query": "What is stated in section 'Revenue and Operating Performance' regarding Total consolidated revenue for?",
+      "expected": "Total consolidated revenue for fiscal year 2025 reached $4.2 billion, representing an 8.5% year-over-year increase driven by cloud services expansion.",
+      "actual": "Informational research tool. Does not provide investment, tax, or financial advisory recommendations.\n\nTotal consolidated revenue for fiscal year 2025 reached $4.2 billion, representing an 8.5% year-over-year increase driven by cloud services expansion. [Doc: Annual Financial Report and MD&A Disclosure (Vol 3), Page: 3, Section: Overview]",
+      "citations": [
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 3), Page: 3, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 2), Page: 2, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 1), Page: 1, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 1.21
+    },
+    {
+      "query": "What is stated in section 'Operating Margin and EBITDA' regarding Adjusted EBITDA grew by?",
+      "expected": "Adjusted EBITDA grew by 12.1% to $1.15 billion, with operating margin expanding 140 basis points to 27.4% due to operational efficiencies.",
+      "actual": "Informational research tool. Does not provide investment, tax, or financial advisory recommendations.\n\nAdjusted EBITDA grew by 12.1% to $1.15 billion, with operating margin expanding 140 basis points to 27.4% due to operational efficiencies. [Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 1, Section: Overview]",
+      "citations": [
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 4), Page: 1, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 2), Page: 3, Section: Overview]",
+        "[Doc: Annual Financial Report and MD&A Disclosure (Vol 1), Page: 2, Section: Overview]"
+      ],
+      "is_abstention_expected": false,
+      "is_abstained_actual": false,
+      "latency_ms": 4.55
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.2
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.26
+    },
+    {
+      "query": "What are the mandatory guidelines for alchemical transmutation of lead into pure gold?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.27
+    },
+    {
+      "query": "What are the mandatory guidelines for quantum teleportation protocol for interstellar spacecraft?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 1.19
+    },
+    {
+      "query": "What are the mandatory guidelines for sub-atomic particle acceleration under zero-gravity conditions?",
+      "expected": "I cannot answer this question based on the provided documentation.",
+      "actual": "I cannot answer this question based on the provided documentation.",
+      "citations": [],
+      "is_abstention_expected": true,
+      "is_abstained_actual": true,
+      "latency_ms": 3.51
+    }
+  ],
+  "project_id": "GEN-05",
+  "project_title": "Financial Report Analysis Assistant",
+  "domain": "Finance"
+}
