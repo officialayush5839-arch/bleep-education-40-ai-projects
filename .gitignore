@@ -1,0 +1,112 @@
+# ==============================================================================
+# Bleep Education 40 Industry AI Projects - Universal .gitignore
+# ==============================================================================
+
+# --- Byte-compiled / Optimized / DLLs ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# --- C Extensions & Build Distributions ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Python Virtual Environments ---
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# --- Testing, Coverage & Profiling ---
+.pytest_cache/
+.benchmarks/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.tox/
+.nox/
+
+# --- Jupyter Notebook Artifacts ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Local Environment & Secrets ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+*.crt
+
+# --- Machine Learning & Deep Learning Model Artifacts ---
+# Exclude heavy weights and binaries; test mocks are generated dynamically
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.keras
+checkpoints/
+saved_models/
+model_weights/
+
+# --- Vector Databases & Local Embedded Stores ---
+chroma_db/
+.chroma/
+*.faiss
+*.index
+*.sqlite3
+*.db
+
+# --- Large Raw Datasets & Archive Downloads ---
+# Exclude large data dumps while keeping README schemas and gitkeeps
+data/raw/*
+!data/raw/README.md
+!data/raw/.gitkeep
+*.tar.gz
+*.tar
+*.zip
+*.gz
+*.parquet
+
+# --- Operating System & Editor Metadata ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Streamlit Cache & Runtime States ---
+.streamlit/
+
+# --- Agentic Trace Logs & Scratch Files ---
+.agents/
+scratch/
+
+# CatBoost training artifacts
+catboost_info/
